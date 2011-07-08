@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding:0px;
+	margin: 0px;
+    background: #fff !important;
+}
+#navbar{
+	background: url(../images/title_bg.png);
+	height: 50px;
+}
+#navbar .logo{
+	float: left;
+	position: absolute;
+}
+#promotion{
+	height: 200px;
+	background: #7c8fa6 url(../images/promo_bg.png) center;
+}
+
+#nav-bar a{
+        color: white;
+        text-decoration: none;
+}
+
+#footer{
+       border-top: 1px solid #f0f0f0;
+}
+
+#footer .right a{
+	color: black;
+	text-decoration: none;
+}
+
+#footer .right a:hover{
+	text-decoration: underline;
+}
