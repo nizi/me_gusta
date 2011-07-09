@@ -4,7 +4,7 @@
 body{
 	padding:0px;
 	margin: 0px;
-    background: #fff !important;
+    background: #f0f0f0 !important;
 }
 #navbar{
 	background: url(../images/title_bg.png);
@@ -24,10 +24,6 @@ body{
         text-decoration: none;
 }
 
-#footer{
-       border-top: 1px solid #f0f0f0;
-}
-
 #footer .right a{
 	color: black;
 	text-decoration: none;
@@ -36,3 +32,21 @@ body{
 #footer .right a:hover{
 	text-decoration: underline;
 }
+.breadcrumb{
+	margin-bottom: 1em;
+}
+.header{
+	background: url(../images/title_bg.png);
+	padding: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.breadcrumbs.title {
+	color: #B8C4D4;
+	text-decoration: none;
+}
+.size {
+	font-size: 0.8em;
+	color: white;
+}
+

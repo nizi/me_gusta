@@ -1,0 +1,9 @@
+<tr>
+  <td>
+	<div class="taxon">
+	  <% prods =  taxon_preview(taxon)%>
+	  <h2><span class="header"><%= link_to taxon.name, seo_url(taxon), :class => 'breadcrumbs title' %><cite class="size"> <%= prods.size%> productos en esta categoria</cite></span></h2>
+  <%= render :partial => "shared/products", :locals => {:products => prods, :taxon => taxon} %>
+</div>
+  </td>
+</tr>
