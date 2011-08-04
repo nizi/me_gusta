@@ -54,3 +54,9 @@ body{
 	color: white;
 }
 
+#sider{
+    float: left;
+    position: relative;
+    left: 2em;
+    width: 190px;
+}
