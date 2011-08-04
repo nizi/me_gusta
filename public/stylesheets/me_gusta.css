@@ -34,6 +34,10 @@ body{
 }
 .breadcrumb{
 	margin-bottom: 1em;
+    position: relative;
+    top: 10px;
+    left: 0em;
+    text-align: right;
 }
 .header{
 	background: url(../images/title_bg.png);
