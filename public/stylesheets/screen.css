@@ -962,3 +962,21 @@ div#checkout #checkout-summary {
   padding: 20px;
   width: 180px;
 }
+table#cart-detail {
+  width: 700px;
+  position: relative;
+  left: 19em;
+}
+p.cart {
+  position: relative;
+  left: 2em;
+ 
+}
+
+p.cart_empty {
+   top:-5em;
+}
+
+p.cart_continue {
+  top:-10em;  
+}
