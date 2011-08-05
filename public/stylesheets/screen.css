@@ -810,6 +810,9 @@ table#cart h4 { margin-bottom: 0em; }
   float: left;
   width: 470px;
   margin-right: 10px;
+  position: relative;
+  left: 19em;
+  top: 1em;
 }
 #signup #new-customer h2 { margin-bottom: 0.25em; }
 #signup #new-customer p { margin-bottom: 10px; }
@@ -823,6 +826,9 @@ table#cart h4 { margin-bottom: 0em; }
   float: left;
   width: 470px;
   margin-right: 10px;
+  position: relative;
+  left: 19em;
+  top: 1em;
 }
 #login #existing-customer h2 { margin-bottom: 0.25em; }
 #login #existing-customer p { margin-bottom: 10px; }
