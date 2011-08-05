@@ -1016,3 +1016,8 @@ div#rpform {
     width: 470px;
     top: 1em;
 }
+#account_data {
+    position: relative;
+    left: 19em;
+    width: 670px;
+}
