@@ -588,9 +588,20 @@ button.primary, a.button.primary, input.button.primary {
   font-weight: bold;
   color: #fff;
 }
-button:hover { background-image: url(../images/buttons/bg-button-hover.png) !important; }
-a.button:hover { background-image: url(../images/buttons/bg-button-hover.png) !important; }
-input.button:hover { background-image: url(../images/buttons/bg-button-hover.png) !important; }
+button:hover { 
+    color: #000;
+    background-image: url(../images/buttons/bg-button-hover.png) !important; 
+}
+a.button:hover {
+    color: #000;
+    font-weight: bold;
+    background-image: url(../images/buttons/bg-button-hover.png) !important; 
+}
+input.button:hover {
+    color: #000;
+    font-weight: bold;
+    background-image: url(../images/buttons/bg-button-hover.png) !important; 
+}
 button.large, a.button.large, input.button.large {
   -moz-border-radius: 2em;
   -webkit-border-radius: 2em;
@@ -793,6 +804,8 @@ div#subtotal {
   width: 49%;
   width: auto;
   text-align: left;
+  position: relative;
+  right: 1em;
 }
 table { border-collapse: collapse; }
 table th {
@@ -981,8 +994,8 @@ table#cart-detail {
   left: 19em;
 }
 p.cart {
-  position: relative;
-  left: 2em;
+  position: absolute;
+  left: 4em;
  
 }
 
@@ -991,5 +1004,15 @@ p.cart_empty {
 }
 
 p.cart_continue {
-  top:-10em;  
+  top:5em;  
+}
+p#clear_cart_link {
+    top: 10em;
+}
+
+div#rpform {
+    position: relative;
+    left: 19em;
+    width: 470px;
+    top: 1em;
 }
