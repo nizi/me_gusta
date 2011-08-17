@@ -975,15 +975,15 @@ div#checkout #payment-methods li.last {
   width: 190px;
 }
 div#checkout #checkout-summary {
-  background-color: #c3c9df;
+  /*background-color: #c3c9df;*/
   float: right;
   margin-top: 10px;
   padding: 20px;
   width: 180px;
 }
 div#checkout #checkout-summary {
-  background-color: #c3c9df;
-  float: right;
+  /*background-color: #c3c9df; */
+  float: left;
   margin-top: 10px;
   padding: 20px;
   width: 180px;
