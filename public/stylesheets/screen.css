@@ -78,7 +78,7 @@ h2 {
 h3 {
   font-weight: normal;
   color: #222222;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1;
   margin-bottom: 1em;
 }
@@ -397,7 +397,7 @@ p img {
 .navigation-list li.current a.root { width: 183px; }
 .navigation-list a.root {
   color: #333;
-  font-size: 17px;
+  font-size: 15px;
   text-indent: -5px;
   line-height: 2.2em;
   font-weight: bold;
@@ -837,7 +837,7 @@ table#cart h4 { margin-bottom: 0em; }
 #login #existing-customer {
   display: inline;
   float: left;
-  width: 470px;
+  width: 305px;
   margin-right: 10px;
   position: relative;
   left: 19em;
@@ -1020,4 +1020,16 @@ div#rpform {
     position: relative;
     left: 19em;
     width: 670px;
+}
+
+#guest_checkout {
+    position: relative;
+    float: left;
+    top: 1em;
+    left: 24em;
+}
+#reg_title {
+    position: relative;
+    left: 19em;
+    width: 565px;
 }
