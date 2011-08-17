@@ -60,3 +60,7 @@ body{
     left: 2em;
     width: 190px;
 }
+fieldset#shipping{
+    left: 220px;   
+    position: relative;
+}
