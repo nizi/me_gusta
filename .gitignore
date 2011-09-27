@@ -7,3 +7,6 @@ log/*.log
 tmp/
 *~
 *.swp
+public/assets
+Thumbs.db
+all.css

@@ -4,7 +4,7 @@
 body{
 	padding:0px;
 	margin: 0px;
-    background: #f0f0f0 !important;
+    background: url(../images/Fondo.jpg)
 }
 #navbar{
 	background: url(../images/title_bg.png);
@@ -65,4 +65,50 @@ body{
 fieldset#shipping{
     
     position: relative;
+}
+.banner{
+	height:227px;
+	background: #788ca4 url(../images/banner-header_small.png) no-repeat center;
+}
+
+#logo{
+	position: relative;
+	width: 300px;
+	float: left;
+	left: 10%;
+}
+
+#titlemenu{
+	font:Verdana, Geneva, sans-serif;
+	color: white;
+	text-align: right;
+	float: right;
+	right: 15%;
+	position: relative;
+}
+
+#titlemenu li {
+	display: inline;
+	padding-left: 1em;
+}
+
+.per1{
+	float: left;
+	position: relative;
+	width: 280px;
+	left: 10%;
+}
+
+.fraces{
+	float: left;
+	position: relative;
+	width: 350px;
+	left: 15%;
+}
+.per2{
+	position: relative;
+	float: right;
+	width: 280px;
+	right: 10%;
+	bottom: 1em;
 }
