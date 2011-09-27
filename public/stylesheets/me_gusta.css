@@ -11,8 +11,10 @@ body{
 	height: 50px;
 }
 #navbar .logo{
-	float: left;
+	float: right;
 	position: absolute;
+        left: 190px;
+
 }
 #promotion{
 	height: 200px;
@@ -61,6 +63,6 @@ body{
     width: 190px;
 }
 fieldset#shipping{
-    left: 220px;   
+    
     position: relative;
 }
